@@ -1,15 +1,30 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import React from 'react'
+import './App.css';
+import Routing from './components/Routing';
+
+
+// import { useSelector } from 'react-redux';
+
 
 function App() {
-  const [count, setCount] = useState(0)
+
+// const {cartArray} = useSelector(item=>item.cart)
+// let data = cartArray?cartArray:{name:"nothing"}
+//   console.log("home")
+//   console.log("home.js",data);
 
   return (
+  
    <>
+   {/* <ThemeProvider theme={darkTheme}> */}
    
+  {/* </Container> */}
+   {/* </ThemeProvider> */}
+
+   <Routing/>
    </>
+  
+  
   )
 }
 
